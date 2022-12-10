@@ -1,0 +1,22 @@
+{
+  "name": "teste-blue",
+  "version": "1.0.0",
+  "description": "Test project for Blue Pex company.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karen-HerOAcEDucK/teste-blue.git"
+  },
+  "author": "Karen Alexandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karen-HerOAcEDucK/teste-blue/issues"
+  },
+  "homepage": "https://github.com/Karen-HerOAcEDucK/teste-blue#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
