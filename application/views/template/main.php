@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,13 @@
 
     <title><?= $title ?></title>
 
-    <?= link_tag("node_modules/bootstrap/dist/js/bootstrap.min.js") ?>
-    <?= script_tag("node_modules/bootstrap/dist/css/bootstrap.min.css") ?>
+    <link rel="stylesheet" href="http://test-blue-pex.com/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script href="http://test-blue-pex/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
-<body>
+
+<body class="m-0">
     <section class="container">
-        <div id="div-principal-sistem" class="container-fluid">
+        <div id="div-principal-sistem" class="container-fluid pt-4">
             <?= $contents ?>
         </div>
     </section>
