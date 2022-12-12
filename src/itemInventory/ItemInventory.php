@@ -9,10 +9,13 @@ class ItemInventory implements JsonSerializable
 {
     private int $id;
     private int $amount;
+    private string $storage;
     private string $brandName;
+    private string $processor;
+    private string $ramMemory;
+    private string $storageType;
     private string $modelComputer;
     private string $dateInventory;
-    private int $codeIdentification;
 
     public function __construct(int $id)
     {
@@ -44,12 +47,27 @@ class ItemInventory implements JsonSerializable
         $this->dateInventory = $dateInventory;
     }
 
-    public function setCodeIdentification($codeIdentification)
+    public function setProcessor($processor)
     {
-        $this->codeIdentification = $codeIdentification;
+        $this->processor = $processor;
     }
 
-    public function jsonSerialize()
+    public function setStorage($storage)
+    {
+        $this->storage = $storage;
+    }
+
+    public function setRamMemory($ramMemory)
+    {
+        $this->ramMemory = $ramMemory;
+    }
+
+    public function setTypeStorage($storageType)
+    {
+        $this->storageType = $storageType;
+    }
+
+    public function jsonSerialize() : mixed
     {
         $fields = get_object_vars($this);
         return $fields;

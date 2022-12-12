@@ -8,15 +8,18 @@
 
     <title><?= $title ?></title>
 
-    <link rel="stylesheet" href="http://test-blue-pex.com/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <script href="http://test-blue-pex/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?= base_url("node_modules/bootstrap/dist/css/bootstrap.min.css") ?>">
+    <script href="<?= base_url("node_modules/bootstrap/dist/js/bootstrap.min.js") ?>"></script>
+    <script src="https://kit.fontawesome.com/85a0ecc078.js"></script>
 </head>
 
 <body class="m-0">
-    <section class="container">
+    <section class="container-fluid">
         <div id="div-principal-sistem" class="container-fluid pt-4">
             <?= $contents ?>
         </div>
     </section>
+
+    <?= script_tag("assets/js/screen/index.js") ?>
 </body>
 </html>
