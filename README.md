@@ -20,6 +20,10 @@ npm run build
 
 Após executado o comando a aplicação esta pronta para ser utilizada.
 
+<h2>Geração dos arquivos no CRUD de Inventarios</h2>
+
+No momento que se clica nos botões para realizar a exportação dos dados da tabela, automaticamente o sistema gera o arquivo em um diretorio raiz no projeto, este diretorio é o "files", que como ja mencionado se localiza na raiz do projeto.
+
 <h2>As respostas das questões teoricas</h2>
 
 As respostas para as questões teoricas estão localizadas na pasta 'docs', na raiz do repositorio.
