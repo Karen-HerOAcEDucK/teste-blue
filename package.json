@@ -4,7 +4,8 @@
   "description": "Test project for Blue Pex company.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm i && composer i && composer-dump-autoload -o"
   },
   "repository": {
     "type": "git",

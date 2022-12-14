@@ -1,4 +1,0 @@
-id,amount,processor,brand_name,ram_memory,storage_type,date_inventory,model_computer,storage_computer
-2,4,"Intel i5",Acer,16GB,SSD,11/12/2022,"Nitro 5",250GB
-3,2,"Intel i5",Dell,8GB,SSD,12/12/2022,Inspiron,250GB
-4,1,"Intel i5",Dell,8GB,SSD,12/12/2022,G5,250GB
